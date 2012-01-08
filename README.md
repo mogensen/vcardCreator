@@ -19,3 +19,4 @@ A Perl script to generate a vCard file from a CSV file.
 
 * You have to define in the `excelToCSV.applescript` file which columns are integers, to get integers instead off scientific number format (calling the phone number "6,1707E+9" really sucks :D )
 * `vCardCreator.pl` only supports danish CSV files at the moment
+* Should use a libery - like `Text::vCard` to generate the vCards
